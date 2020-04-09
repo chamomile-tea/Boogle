@@ -1,0 +1,87 @@
+#navigation {
+    text-align: right;
+    padding: 10px 10px 0 0;
+}
+
+.links-top {
+    font-family: Arial;
+    font-size: 13px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.links-top:hover {
+    text-decoration: underline;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+    font-family: futura;
+    font-size: 80px;
+}
+
+#search-form {
+    width: 30%;
+    height: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    margin-top: -37px;
+    margin-bottom: 20px;
+    padding: 15px;
+    outline: none;
+    box-shadow: 0 0 8px 2px lightgray;
+}
+
+#search-form:hover {
+    box-shadow: -10px 10px 8px 1px lightgray;
+}
+
+.submit-btn {
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.submit-btn:hover {
+    border: 1px solid lightgray;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    line-height: 30px;
+    background-color: #f2f2f2;
+    border: 1px solid lightgray;
+}
+
+.btn-bottom {
+    font-size: 14px;
+    font-family: sans-serif;
+    border: none;
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+    margin: 0 10px 0 10px;
+}
+
+.btn-right {
+    float: right;
+}
+
+
+
+
+
+
+
